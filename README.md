@@ -23,8 +23,16 @@ To install **sox**
 2. `sudo apt install sox`
 
 ## To use Twitter Bot to upload images and captions automatically
-In order for the Twitter Bot to work, the twython module must be installed.
+In order for the Twitter Bot to work, here are a few things that you need:
+    - twython module
+    - Twitter developer account
+    - Twitter application
 
-To install **twython**
+
+To install the **twython** module
 1. Open terminal
-2. `sudo pip3 install twython (python3) / sudo pip install twython (python2)`
+2. `sudo pip3 install twython (python3) / sudo pip install twython (python2)` 
+
+Apply for a Twitter developer account
+1. Create a Twitter account (if you don't already have one) at [twitter.com](twitter.com)
+2. 
