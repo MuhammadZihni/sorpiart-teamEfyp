@@ -34,5 +34,5 @@ To install the **twython** module
 2. `sudo pip3 install twython (python3) / sudo pip install twython (python2)` 
 
 Apply for a Twitter developer account
-1. Create a Twitter account (if you don't already have one) at [twitter.com](twitter.com)
+1. Create a Twitter account (if you don't already have one) at [twitter.com](https://twitter.com)
 2. 
