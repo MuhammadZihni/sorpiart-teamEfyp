@@ -27,4 +27,4 @@ In order for the Twitter Bot to work, the twython module must be installed.
 
 To install **twython**
 1. Open terminal
-2. sudo pip3 install twython (python3) / sudo pip install twython (python2)
+2. `sudo pip3 install twython (python3) / sudo pip install twython (python2)`
