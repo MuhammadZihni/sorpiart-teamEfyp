@@ -35,4 +35,4 @@ To install the **twython** module
 
 Apply for a Twitter developer account
 1. Create a Twitter account (if you don't already have one) at [twitter.com](https://twitter.com)
-2. 
+2. Apply for a Twitter developer account at [developer.twitter.com](https://developer.twitter.com)
