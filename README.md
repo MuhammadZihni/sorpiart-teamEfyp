@@ -21,3 +21,10 @@ In order for **pix2music.py** to work, the **Raspberry Pi** will require the **S
 To install **sox**
 1. open terminal
 2. `sudo apt install sox`
+
+## To use Twitter Bot to upload images and captions automatically
+In order for the Twitter Bot to work, the twython module must be installed.
+
+To install **twython**
+1. Open terminal
+2. sudo pip3 install twython (python3) / sudo pip install twython (python2)
