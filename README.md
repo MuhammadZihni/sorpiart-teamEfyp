@@ -58,5 +58,5 @@ Libraries to download :
 - os 
 - pix2music
 - matplotlib
-- scipy
+
 
