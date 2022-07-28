@@ -8,9 +8,15 @@ from pix2music import *
 from tkinter import messagebox
 from PIL import Image, ImageTk
 from tkinter import font
+import time
+#time.sleep(6)
 import numpy as np
 import matplotlib.pyplot as plt
-from beatmaker import *
+from gtts import gTTS
+import pygame
+import speech_recognition as sr
+import os
+from recording_4_seconds import *
 
 main = Tk()
 main.geometry("980x600")
@@ -98,6 +104,35 @@ from pix2music import *
 ```
 This imports everything from tkinter and pix2music because we need the data from the libraries. In order to work with a tkinter application, we will need to install and import the tkinter library. The importance of **"import"** represent all the functions and built-in modules in the tkinter library.
 
+### Importing Pygame library
+```
+import pygame
+```
+Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with Python programming language. By using Pygame module, you can control the logic and graphics of your games without worrying about backend complexities required for working with video and audio.  
+
+### Importing Matplotlib library
+```
+import matplotlib.pyplot as plt
+```
+Matplotlib is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy. As such, it offers a viable open source alternative to MATLAB. It provides a user to visualize data using a variety of different types of plots to make data understandable.  
+
+### Importing PIL (Python Imaging Library)
+```
+from PIL import image, ImageTk
+```
+Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating and saving many different image file format.
+
+### Importing Numpy
+```
+import numpy as np
+```
+Numpy is Python package. It stands for ‘Numerical Python’. It is a library consisting of multidimensional array objects and a collection of routines for processing of array.
+
+### Importing OS (Operating System)
+```
+import os
+```
+ The OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.
 
 ### Installing tk on system
 ```
