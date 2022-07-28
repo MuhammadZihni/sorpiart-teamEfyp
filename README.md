@@ -40,7 +40,9 @@ To install the **pygame** library
     3. In python code, `import pygame`
 
 To install the **pyaudio** 
-
+    1. Open terminal
+    2. Enter `sudo pip install pyaudio`
+    3. In python code, `import pyaudio`
 
 
 Apply for a Twitter developer account
@@ -57,3 +59,4 @@ Libraries to download :
 - pix2music
 - matplotlib
 - scipy
+
