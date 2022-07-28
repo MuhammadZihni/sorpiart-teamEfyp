@@ -53,3 +53,7 @@ Libraries to download :
 - numpy
 - PIL 
 - pyplot
+- os 
+- pix2music
+- matplotlib
+- scipy
