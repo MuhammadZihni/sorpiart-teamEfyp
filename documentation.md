@@ -116,11 +116,11 @@ from PIL import image, ImageTk
 ```
 Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating and saving many different image file format.
 
-### Importing PIL(Python Imaging Library)
+### Importing OS (Operating System)
 ```
-from PIL import image, ImageTk
+import os
 ```
-
+ The OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.
 
 ### Installing tk on system
 ```
