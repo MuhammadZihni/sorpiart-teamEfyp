@@ -98,10 +98,18 @@ from pix2music import *
 ```
 This imports everything from tkinter and pix2music because we need the data from the libraries. In order to work with a tkinter application, we will need to install and import the tkinter library. The importance of **"import"** represent all the functions and built-in modules in the tkinter library.
 
-### Importing SciPy library
+### Importing Pygame library
 ```
-SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy stands for Scentific Python. It provides more utility functions for optimization, stats and signal processing. 
+import pygame
 ```
+Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with Python programming language. By using Pygame module, you can control the logic and graphics of your games without worrying about backend complexities required for working with video and audio.  
+
+### Importing Matplotlib library
+```
+import matplotlib.pyplot as plt
+```
+Matplotlib is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy. As such, it offers a viable open source alternative to MATLAB. It provides a user to visualize data using a variety of different types of plots to make data understandable.  
+
 ### Installing tk on system
 ```
 main=tk()
