@@ -116,7 +116,7 @@ import matplotlib.pyplot as plt
 ```
 Matplotlib is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy. As such, it offers a viable open source alternative to MATLAB. It provides a user to visualize data using a variety of different types of plots to make data understandable.  
 
-### Importing PIL(Python Imaging Library)
+### Importing PIL (Python Imaging Library)
 ```
 from PIL import image, ImageTk
 ```
