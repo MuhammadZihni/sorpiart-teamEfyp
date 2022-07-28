@@ -98,7 +98,10 @@ from pix2music import *
 ```
 This imports everything from tkinter and pix2music because we need the data from the libraries. In order to work with a tkinter application, we will need to install and import the tkinter library. The importance of **"import"** represent all the functions and built-in modules in the tkinter library.
 
-
+### Importing SciPy library
+```
+SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy stands for Scentific Python. It provides more utility functions for optimization, stats and signal processing. 
+```
 ### Installing tk on system
 ```
 main=tk()
