@@ -8,9 +8,15 @@ from pix2music import *
 from tkinter import messagebox
 from PIL import Image, ImageTk
 from tkinter import font
+import time
+#time.sleep(6)
 import numpy as np
 import matplotlib.pyplot as plt
-from beatmaker import *
+from gtts import gTTS
+import pygame
+import speech_recognition as sr
+import os
+from recording_4_seconds import *
 
 main = Tk()
 main.geometry("980x600")
@@ -115,6 +121,12 @@ Matplotlib is a cross-platform, data visualization and graphical plotting librar
 from PIL import image, ImageTk
 ```
 Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating and saving many different image file format.
+
+### Importing Numpy
+```
+import numpy as np
+```
+Numpy is Python package. It stands for ‘Numerical Python’. It is a library consisting of multidimensional array objects and a collection of routines for processing of array.
 
 ### Importing OS (Operating System)
 ```
