@@ -24,8 +24,13 @@ To install **sox**
 
 ## Setup
 To start off, we will need to install a list of modules on our Raspberry Pi. We will install all these modules using the terminal.
-1. **sox library**. 
+1. **sox library**
     - `sudo apt install sox`
+
+<br />
+
+2. **pygame**
+    - `pip3 install pygame`
     
 
 
