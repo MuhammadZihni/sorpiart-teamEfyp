@@ -30,7 +30,7 @@ To start off, we will need to install a list of modules on our Raspberry Pi. We 
 2. **pygame**
     - `pip3 install pygame`
 
-3. **pillow**
+3. **PIL a.k.a pillow**
     - `pip3 install Pillow`
 
 4. **gtts**
@@ -44,6 +44,27 @@ To start off, we will need to install a list of modules on our Raspberry Pi. We 
 
 5. **PyAudio**
     - `pip3 install PyAudio`
+
+6. **wave**
+    - `pip3 install Wave`
+
+7. **gpiozero**
+    - `pip3 install gpiozero`
+
+8. **twython**
+    - `pip3 install twython`
+
+9. **pydub**
+    - `pip3 install pydub`
+
+10. **matlpotlib**
+    - `pip3 install matplotlib`
+
+11. **scipy**
+    - `pip3 install scipy`
+
+12. **numpy**
+    - `pip3 install numpy`
     
 
 
