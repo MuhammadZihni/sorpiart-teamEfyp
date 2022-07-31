@@ -2,7 +2,17 @@
 Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different type of sounds. We hope it will help to stimulate their brain growth by exposing them to the different type of sounds.
 
 ## Features
+**Music Maker:**
 ![](documentation_images/MusicMaker.png)
+
+**Record:**
+![](documentation_images/record.png)
+
+**Beat Maker**
+![](documentation_images/beatmaker.png)
+
+**Translator**
+![](documentation_images/translator.png)
 
 ## To run Tkinter GUI on boot
 In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspberry Pi** boots up, we can utilise on **autostart**. 
