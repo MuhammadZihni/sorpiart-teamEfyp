@@ -76,41 +76,6 @@ In order for the Twitter Bot to work, here are a few things that you need:
     - Twitter developer account
     - Twitter application
 
-Installation of modules/libraries
-
-To install the **twython** module
-    1. Open terminal
-    2. `sudo pip3 install twython (python3) / sudo pip install twython (python2)` 
-
-To install the **pygame** module
-    1. Open terminal
-    2. Enter `sudo apt-get install python-pygame`
-    3. In python code, `import pygame`
-
-To install the **pyaudio** module
-    1. Open terminal
-    2. Enter `sudo pip install pyaudio`
-    3. In python code, `import pyaudio`
-
-To install the **numpy** module
-    1. Open terminal 
-    2. Enter `sudo apt install python3-numpy`
-    3. run `sudo pip3 install numpy`
-
-To install the **matplotlib** module
-    1. Open terminal 
-    2. Run `sudo apt install python3-matplkotlib python3-tk` and
-    `sudo pip3 install matplotlib pytk`
-
-To install the **PIL a.k.a pillow**
-    1. Open terminal 
-    2. Enter `sudo pip install pillow`
-
-To install the **scipy**
-    1. Open terminal
-    2. Enter `sudo apt-get install python3-scipy`
-
-
 Apply for a Twitter developer account
 1. Create a Twitter account (if you don't already have one) at [twitter.com](https://twitter.com)
 2. Apply for a Twitter developer account at [developer.twitter.com](https://developer.twitter.com)
