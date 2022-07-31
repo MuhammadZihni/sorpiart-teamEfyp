@@ -5,7 +5,7 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 **Music Maker:**
 ![](documentation_images/MusicMaker.png)
 
-**Record:**
+**Record:** The **Record** function allows users to make a 4 second recording which will produce a spectrogram based on what they say.
 ![](documentation_images/record.png)
 
 **Beat Maker**
