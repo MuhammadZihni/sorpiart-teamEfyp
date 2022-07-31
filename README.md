@@ -6,6 +6,7 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 ![](documentation_images/MusicMaker.png)
 
 **Record:** The **Record** function allows users to make a 4-second recording, which will be converted into a picture of an audio waveform and spectrogram. The converted image will then be uploaded automatically to a Twitter account, where it is displayed with other converted images.
+![](documentation_images/record.png)
 
 **Beat Maker**
 ![](documentation_images/beatmaker.png)
