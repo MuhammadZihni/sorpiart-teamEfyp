@@ -39,31 +39,31 @@ To start off, we will need to install a list of modules on our Raspberry Pi. We 
 5. **SpeechRecognition**
     - `pip3 install SpeechRecognition`
 
-4. **translate**
+6. **translate**
     - `pip3 install translate`
 
-5. **PyAudio**
+7. **PyAudio**
     - `pip3 install PyAudio`
 
-6. **wave**
+8. **wave**
     - `pip3 install Wave`
 
-7. **gpiozero**
+9. **gpiozero**
     - `pip3 install gpiozero`
 
-8. **twython**
+10. **twython**
     - `pip3 install twython`
 
-9. **pydub**
+11. **pydub**
     - `pip3 install pydub`
 
-10. **matlpotlib**
+12. **matlpotlib**
     - `pip3 install matplotlib`
 
-11. **scipy**
+13. **scipy**
     - `pip3 install scipy`
 
-12. **numpy**
+14. **numpy**
     - `pip3 install numpy`
     
 
