@@ -14,15 +14,8 @@ In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspb
 5. edit **tkinterautostart.desktop** 
 5.1 `nano ~/.config/autostart/tkinterautostart.desktop`
 
-## To install sox library (pix2music)
-In order for **pix2music.py** to work, the **Raspberry Pi** will require the **Sound Exchange (sox)** library to be installed.
-
-To install **sox**
-1. open terminal
-2. `sudo apt install sox`
-
 ## Setup
-To start off, we will need to install a list of modules on our Raspberry Pi. We will install all these modules using the terminal.
+To start off, we will need to install a list of modules/libraries on our Raspberry Pi. We will install all these modules using the terminal.
 1. **sox library**
     - `sudo apt install sox`
 
