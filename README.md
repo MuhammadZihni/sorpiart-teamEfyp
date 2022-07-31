@@ -70,14 +70,18 @@ After installing the rlevant modules, you can clone the repositiory into your Ra
 `git clone https://github.com/MuhammadZihni/sorpiart-teamEfyp`
 
 
-## To use Twitter Bot to upload images and captions automatically
+## Using Twitter Bot to upload images and captions automatically
 In order for the Twitter Bot to work, here are a few things that you need:
     - twython module
     - Twitter developer account
     - Twitter application
 
-Apply for a Twitter developer account
-1. Create a Twitter account (if you don't already have one) at [twitter.com](https://twitter.com)
-2. Apply for a Twitter developer account at [developer.twitter.com](https://developer.twitter.com)
+**Apply for a Twitter developer account**
+1. Create a Twitter account (if you don't already have one) at [twitter.com](https://twitter.com).
+2. Apply for a Twitter developer account at [developer.twitter.com](https://developer.twitter.com).
+3. To complete the developer application, follow the steps at [projects.raspberrypi.org/twitter](https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/2).
+
+**Create a Twitter application**
+1. Go to [developer.twitter.com](https://developer.twitter.com), select **Developer Portal** from the menu, click on **Project & Apps** and select **Overview**.
 
 
