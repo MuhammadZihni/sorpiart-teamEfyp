@@ -1,26 +1,32 @@
 from twython import Twython
 from tkinter import *
 from tkinter import simpledialog
-from time import gmtime, strftime
 from pydub import AudioSegment
 from matplotlib import pyplot as plot
+import matplotlib.image as mpimg
 from PIL import Image, ImageDraw, ImageFont
-from subprocess import call 
+from scipy.io import wavfile
 import numpy as np
-import os
 import speech_recognition as sr
-import sys
 import time
 
-src = "test.wav"
+time.sleep(1)
+samplingFrequency, signalData = wavfile.read('/home/pi/project/EGL314_Project_TeamC/Sound/wav/output.wav')  #for spectrogram
+src = "/home/pi/project/EGL314_Project_TeamC/Sound/wav/output.wav"
 r = sr.Recognizer()
 
+#speech to text
 with sr.AudioFile(src) as source:
+    try:
     # listen for the data (load audio to memory)
-    audio_data = r.record(source)
-    # recognize (convert from speech to text)
-    text1 = r.recognize_google(audio_data)
-    print(text1)
+        audio_data = r.record(source)
+        # recognize (convert from speech to text)
+        text1 = r.recognize_google(audio_data)
+        print(text1)
+    # when it deos not recognise anything, print ""
+    except sr.UnknownValueError:
+        text1 = ""
+        print(text1)
     
 audio = AudioSegment.from_file(src)
 data = np.frombuffer(audio._data, np.int16)
@@ -28,7 +34,7 @@ fs = audio.frame_rate
 
 BARS = 500
 BAR_HEIGHT = 300
-LINE_WIDTH = 5
+LINE_WIDTH = 4
 
 length = len(data)
 RATIO = length/BARS
@@ -55,7 +61,8 @@ for d in data:
 
 line_ratio = highest_line/BAR_HEIGHT
 
-fnt = ImageFont.truetype('vcr.ttf', 50)
+# fnt = ImageFont.truetype('vcr.ttf', 50)
+fnt = ImageFont.truetype("/home/pi/project/EGL314_Project_TeamC/vcr.ttf", 50)
 
 im = Image.new('RGB', (BARS * LINE_WIDTH, BAR_HEIGHT), (255, 255, 255))
 draw = ImageDraw.Draw(im)
@@ -67,21 +74,34 @@ for item in max_array:
     item_height = item/line_ratio
 
     current_y = (BAR_HEIGHT - item_height)/2
-    draw.line((current_x, current_y, current_x, current_y + item_height), fill=(0, 0, 0), width=4)
+    draw.line((current_x, current_y, current_x, current_y + item_height), fill=(0, 0, 0), width=5)
 
     current_x = current_x + LINE_WIDTH
+    
+filename = "audioSpec" + ".jpg" #save the bars diagram
+im.save("/home/pi/project/EGL314_Project_TeamC/images/" + filename)
 
-im.show()
+plot.subplot(211)
+plot.title("waveform")
+img = mpimg.imread('/home/pi/project/EGL314_Project_TeamC/images/audioSpec.jpg')
+imgplot = plot.imshow(img)
+    
+plot.subplot(212)
+plot.title("spectrogram")
+plot.specgram(signalData,Fs=samplingFrequency)
+bottom, top = plot.ylim()
+left, right = plot.xlim()
+plot.ylim(0, 10000)
+plot.xlim(0, 3)
+plot.xlabel('Time')
+plot.ylabel('Frequency')
+plot.savefig("/home/pi/project/EGL314_Project_TeamC/images/figure.jpg", bbox_inches="tight")  #save the plot which includes the spectrogra & bars diagrams
+
+plot.show()  #plot.show() must be after plot.savefig beacuse polt.show() clears the plot
+
 main = Tk()
 main.withdraw()
 user_input = simpledialog.askstring(title="Get Name", prompt="Name:")
-
-
-# filename = "audioSpec_" + strftime("%Y_%m_%d%H-%M-%S", gmtime()) + ".jpg"
-# im.save("static/images/" + filename)
-
-filename = "audioSpec" + ".jpg"
-im.save("static/images/" + filename)
 
 
 from auth_twitter import (
@@ -100,9 +120,10 @@ twitter = Twython(
 
 
 message = user_input
-image = open('/home/pi/project/EGL314_Project_TeamC/static/images/audioSpec.jpg', 'rb')
+image = open('/home/pi/project/EGL314_Project_TeamC/images/figure.jpg', 'rb')
 response = twitter.upload_media(media=image)
 media_id = [response['media_id']]
 twitter.update_status(status=message, media_ids=media_id)
+
 
 

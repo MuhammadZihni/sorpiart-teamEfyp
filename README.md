@@ -66,6 +66,7 @@ To start off, we will need to install a list of modules on our Raspberry Pi. We 
 14. **numpy**
     - `pip3 install numpy`
     
+After installing the rlevant modules, you can clone the repositiory into your Raspberry Pi.
 
 
 ## To use Twitter Bot to upload images and captions automatically
