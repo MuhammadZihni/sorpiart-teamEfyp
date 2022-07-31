@@ -32,6 +32,18 @@ To start off, we will need to install a list of modules on our Raspberry Pi. We 
 
 3. **pillow**
     - `pip3 install Pillow`
+
+4. **gtts**
+    - `pip3 install gTTS`
+
+5. **SpeechRecognition**
+    - `pip3 install SpeechRecognition`
+
+4. **translate**
+    - `pip3 install translate`
+
+5. **PyAudio**
+    - `pip3 install PyAudio`
     
 
 
