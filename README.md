@@ -1,12 +1,11 @@
 # sorpiart
-Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different type of sounds. We hope it will help to stimulate their brain growth by exposing them to the different type of sounds.
+Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds. We hope it will help to stimulate their brain growth by exposing them to different types of sounds.
 
 ## Features
 **Music Maker:**
 ![](documentation_images/MusicMaker.png)
 
-**Record:** The **Record** function allows users to make a 4 second recording which will produce a spectrogram based on what they say.
-![](documentation_images/record.png)
+**Record:** The **Record** function allows users to make a 4-second recording, which will be converted into a picture of an audio waveform and spectrogram. The converted image will then be uploaded automatically to a Twitter account, where it is displayed with other converted images.
 
 **Beat Maker**
 ![](documentation_images/beatmaker.png)
