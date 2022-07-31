@@ -11,7 +11,7 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 **Beat Maker**
 ![](documentation_images/beatmaker.png)
 
-**Translator**
+**Translator** The **Translator** function allow users to translate any text in English to other languages. The supported languages include Chinese. Malay, Korean, Japanese, Tamil, French, Spanish, Vietnamese.
 ![](documentation_images/translator.png)
 
 ## To run Tkinter GUI on boot
