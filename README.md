@@ -6,8 +6,7 @@ In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspb
 
 ### Configuration (autostart)
 1. open terminal
-2. change directory to **.config**
-2.1 `cd .config/`22
+2. change directory to **.config** `cd .config/`
 3. Create an **autostart** folder
 3.1 `mkdir autostart`
 4. copy **tkinterautostart.desktop** into the folder
