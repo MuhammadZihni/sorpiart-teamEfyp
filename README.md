@@ -1,4 +1,4 @@
-# sorpiart
+# RasPiratory System
 Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds.
 
 ## Features
