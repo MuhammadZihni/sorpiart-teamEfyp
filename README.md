@@ -4,10 +4,14 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 ## Components
 | No. | Component |
 | ----------- | ----------- |
-|1| Raspberry Pi 4 (Recommended)|
-|2| Users can see the GUI on a bigger scale and it will be easier to navigate        |
-|3| Navigate through operating system with ease and troubleshoot faster       |
-|4| Enhance the sound quality|
+|1|Raspberry Pi 4 (Recommended)|
+|2|Keyboard & Mouse|
+|3|Mic|
+|4|USB Audio Adapter (USB - 3.5mm Mic Input)|
+|5|Breadboard|
+|6|8 Push Buttons|
+|7|Some Jumper Cables / Dupont Cable (Male-Male) & (Male-Female)|
+|8|Monitor Speakers / Earphones|
 
 ## Features
 **Music Maker:**
