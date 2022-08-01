@@ -29,6 +29,7 @@ In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspb
 
 ## Setup
 To start off, we will need to install a list of modules/libraries on our Raspberry Pi. We will install all these modules using the terminal.
+First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
 1. **sox library**
     - `sudo apt install sox`
 
