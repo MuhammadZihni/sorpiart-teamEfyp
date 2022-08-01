@@ -126,7 +126,7 @@ def beatmaker_instructions():
 def func(Value):
     global toggle
     if (Value == "1"):
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/turtle_sound.mp3") #Turtle
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/turtle_sound.mp3") #Turtle
         pygame.mixer.music.play()
         for i in range(row):
             for j in range(col):
@@ -150,7 +150,7 @@ def func(Value):
         profileClicked.set('triangle')
         keyClicked.set('C6')
     elif (Value == "2"):
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/duck_sound.mp3") #Duck
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/duck_sound.mp3") #Duck
         pygame.mixer.music.play()
         for i in range(row):
             for j in range(col):
@@ -180,7 +180,7 @@ def func(Value):
         profileClicked.set('Sine')
         keyClicked.set('C6')
     elif (Value == "3"):
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/pig_sound.mp3") #Pig
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/pig_sound.mp3") #Pig
         pygame.mixer.music.play()
         for i in range(row):
             for j in range(col):
@@ -227,7 +227,7 @@ def func(Value):
         profileClicked.set('pluck')
         keyClicked.set('C3')
     elif (Value == "4"):
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/panda_sound.mp3") #Panda
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/panda_sound.mp3") #Panda
         pygame.mixer.music.play()
         for i in range(row):
             for j in range(col):
@@ -258,7 +258,7 @@ def func(Value):
         profileClicked.set('sawtooth')
         keyClicked.set('C4')
     else:
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/dog_sound.mp3") #Dog
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/dog_sound.mp3") #Dog
         pygame.mixer.music.play()
         for i in range(row):
             for j in range(col):
@@ -293,62 +293,62 @@ def translating(Value):
     if (Value == 'Chinese'):
         language = 'zh'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'Malay'):
         language = 'id'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'Korean'):
         language = 'ko'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'Japanese'):
         language = 'ja'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'Tamil'):
         language = 'ta'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'French'):
         language = 'fr'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'Spanish'):
         language = 'es-es'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
     elif (Value == 'Vietnamese'):
         language = 'vi'
         speech = gTTS(text = translation, lang = language, slow = False)
-        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        speech.save("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         time.sleep(1)
-        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
         
                 
-bg = PIL.Image.open("/home/pi/project/EGL314_Project_TeamC/icon/proj_bg1")
+bg = PIL.Image.open("/home/pi/sorpiart-teamEfyp/icon/proj_bg1")
 bg = bg.resize((1920,1065))
 img = ImageTk.PhotoImage(bg)
 label = Label(tab1, image = img)
@@ -431,8 +431,8 @@ processing_label.place(relx=0.5, rely=0.4, anchor = CENTER)
 
 
 ##beatmaker program
-drumIcon = ImageTk.PhotoImage(PIL.Image.open("/home/pi/project/EGL314_Project_TeamC/icon/drums.png").resize((60, 60), PIL.Image.ANTIALIAS))
-pianoIcon = ImageTk.PhotoImage(PIL.Image.open("/home/pi/project/EGL314_Project_TeamC/icon/piano.png").resize((60,60), PIL.Image.ANTIALIAS))
+drumIcon = ImageTk.PhotoImage(PIL.Image.open("/home/pi/sorpiart-teamEfyp/icon/drums.png").resize((60, 60), PIL.Image.ANTIALIAS))
+pianoIcon = ImageTk.PhotoImage(PIL.Image.open("/home/pi/sorpiart-teamEfyp/icon/piano.png").resize((60,60), PIL.Image.ANTIALIAS))
 
 beatmaker_title = tk.Label(tab3, text="Sound Launchpad with Buttons", font = ("Flavors 16"))
 beatmaker_title.place(relx=0.5, rely=0.2, anchor = CENTER)
