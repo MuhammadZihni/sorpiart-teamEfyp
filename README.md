@@ -85,7 +85,7 @@ In order for the Twitter Bot to work, here are a few things that you need: <br /
 
 **Apply for a Twitter developer account**
 1. Create a Twitter account (if you don't already have one) at [twitter.com](https://twitter.com).
-2. Apply for a Twitter developer account at [developer.twitter.com](https://developer.twitter.com).
+2. Apply for a Twitter developer account at [developer.twitter.com (Twitter Developer Portal)](https://developer.twitter.com).
 3. To complete the developer application, follow the steps at [projects.raspberrypi.org/twitter](https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/2).
 
 **Create a Twitter application**
@@ -100,3 +100,4 @@ In order for the Twitter Bot to work, here are a few things that you need: <br /
 5. Turn on **OAuth 1.0a** and set **App permissions** to **Read and write**. Give a random **Callback URL / Redirect URL** and **Website URL**, and click **Save**. <br />
 ![](documentation_images/twitter_5.png)
 ![](documentation_images/twitter_8.png)
+6. Modify the **auth_twitter.py** file with your **Keys & Tokens** from step 3. If you forgot to save the **Keys & Tokens** earlier, you can renegerate it again at the Twitter Developer Portal.
