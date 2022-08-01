@@ -19,14 +19,23 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 | ----------- | ----------- |
 |1|Raspberry Pi 4 (Recommended)|
 |2|Keyboard & Mouse|
-|3|Mic|
-|4|USB Audio Adapter (USB - 3.5mm Mic Input)|
+|3|USB Audio Adapter (USB - 3.5mm Mic Input)|
+|4|Mic (3.5mm)|
 |5|Breadboard|
 |6|8 Push Buttons|
 |7|Some Jumper Cables / Dupont Cable (Male-Male) & (Male-Female)|
-|8|Monitor Speakers / Earphones|
+|8|Speakers / Earphones|
 
 ## Setup
+**Connecting the USB Audio Adapter, Mic, and Speakers to the Raspberry Pi**
+1. Connect the Mic to the mic input of the USB Audio Adapter 
+2. Connect the USB Audio Adapter to the USB-A port of the Raspberry pi
+3. Connect the Speakers/Earphones to the 3.5mm jack of the Raspberry Pi <br />
+![](documentation_images/hardware_setup1.jpg)
+
+### Setting up the hardware 
+
+### Setting up the code
 To start off, we will need to install a list of modules/libraries on our Raspberry Pi. We will install all these modules using the terminal.
 First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
 1. **sox library**
