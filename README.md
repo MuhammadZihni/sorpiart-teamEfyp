@@ -89,9 +89,13 @@ First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
 After installing the rlevant modules, you can clone the repositiory into your Raspberry Pi.
 `git clone https://github.com/MuhammadZihni/sorpiart-teamEfyp`
 
+### How does the code work?
+
+
 
 ## Using Twitter Bot to upload images and captions automatically
 ***Follow these steps if you want to use the Twitter Bot, otherwise, you can skip this portion*** <br />
+***If not using the Twitter Bot, remove lines 102-126 from **displayingSpectrogram.py*****
 In order for the Twitter Bot to work, here are a few things that you need: <br />
 &nbsp;&nbsp;    - twython module <br />
 &nbsp;&nbsp;    - Twitter developer account <br />
