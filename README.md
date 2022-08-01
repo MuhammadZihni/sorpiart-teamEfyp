@@ -1,6 +1,14 @@
 # sorpiart
 Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds.
 
+## Components
+| No. | Component |
+| ----------- | ----------- |
+|1| Raspberry Pi 4 (Recommended)|
+|2| Users can see the GUI on a bigger scale and it will be easier to navigate        |
+|3| Navigate through operating system with ease and troubleshoot faster       |
+|4| Enhance the sound quality|
+
 ## Features
 **Music Maker:**
 ![](documentation_images/MusicMaker.png)
