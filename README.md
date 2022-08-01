@@ -1,5 +1,5 @@
 # sorpiart
-Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds. We hope it will help to stimulate their brain growth by exposing them to different types of sounds.
+Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds.
 
 ## Features
 **Music Maker:**
@@ -87,6 +87,9 @@ In order for the Twitter Bot to work, here are a few things that you need:
 3. To complete the developer application, follow the steps at [projects.raspberrypi.org/twitter](https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api/2).
 
 **Create a Twitter application**
-1. Go to [developer.twitter.com](https://developer.twitter.com), select **Developer Portal** from the menu, click on **Project & Apps** and select **Overview**.
-
-
+1. Go to [developer.twitter.com](https://developer.twitter.com), select **Project & Apps** from the menu, click on **Overview** and select **+Create App**.
+![](documentation_images/twitter_1.png)
+2. Create an **App name** and click **Next**.
+![](documentation_images/twitter_2.png)
+3. Jot down the **Keys & Tokens** which will be needed for authentication later, and click **App settings**.
+![](documentation_images/twitter_3.png)
