@@ -1,18 +1,6 @@
 # sorpiart
 Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds.
 
-## Components
-| No. | Component |
-| ----------- | ----------- |
-|1|Raspberry Pi 4 (Recommended)|
-|2|Keyboard & Mouse|
-|3|Mic|
-|4|USB Audio Adapter (USB - 3.5mm Mic Input)|
-|5|Breadboard|
-|6|8 Push Buttons|
-|7|Some Jumper Cables / Dupont Cable (Male-Male) & (Male-Female)|
-|8|Monitor Speakers / Earphones|
-
 ## Features
 **Music Maker:**
 ![](documentation_images/MusicMaker.png)
@@ -26,18 +14,17 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 **Translator:** The **Translator** function allow users to translate any text in English to other languages. This function also allows users to hear the translated text. The supported languages include Chinese, Malay, Korean, Japanese, Tamil, French, Spanish, and Vietnamese. 
 ![](documentation_images/translator.png)
 
-## To run Tkinter GUI on boot
-In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspberry Pi** boots up, we can utilise on **autostart**. 
-
-### Configuration (autostart)
-1. open terminal
-2. change directory to **.config** `cd .config/`
-3. Create an **autostart** folder
-3.1 `mkdir autostart`
-4. copy **tkinterautostart.desktop** into the folder
-4.1 `cp ~/sorpiart/tkinterautostart.desktop ~/.config/autostart/`
-5. edit **tkinterautostart.desktop** 
-5.1 `nano ~/.config/autostart/tkinterautostart.desktop`
+## Components
+| No. | Component |
+| ----------- | ----------- |
+|1|Raspberry Pi 4 (Recommended)|
+|2|Keyboard & Mouse|
+|3|Mic|
+|4|USB Audio Adapter (USB - 3.5mm Mic Input)|
+|5|Breadboard|
+|6|8 Push Buttons|
+|7|Some Jumper Cables / Dupont Cable (Male-Male) & (Male-Female)|
+|8|Monitor Speakers / Earphones|
 
 ## Setup
 To start off, we will need to install a list of modules/libraries on our Raspberry Pi. We will install all these modules using the terminal.
@@ -113,3 +100,16 @@ In order for the Twitter Bot to work, here are a few things that you need: <br /
 ![](documentation_images/twitter_5.png)
 ![](documentation_images/twitter_8.png)
 6. Modify the **auth_twitter.py** file with your **Keys & Tokens** from step 3. If you forgot to save the **Keys & Tokens** earlier, you can regenerate it again at the Twitter Developer Portal.
+
+## To run Tkinter GUI on boot
+In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspberry Pi** boots up, we can utilise on **autostart**. 
+
+### Configuration (autostart)
+1. open terminal
+2. change directory to **.config** `cd .config/`
+3. Create an **autostart** folder
+3.1 `mkdir autostart`
+4. copy **tkinterautostart.desktop** into the folder
+4.1 `cp ~/sorpiart/tkinterautostart.desktop ~/.config/autostart/`
+5. edit **tkinterautostart.desktop** 
+5.1 `nano ~/.config/autostart/tkinterautostart.desktop`
