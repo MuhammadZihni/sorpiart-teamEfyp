@@ -8,10 +8,10 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 **Record:** The **Record** function allows users to make a 4-second recording, which will be converted into a picture of an audio waveform and spectrogram. The converted image will then be uploaded automatically to a Twitter account, where it is displayed with other converted images.
 ![](documentation_images/record.png)
 
-**Beat Maker**
+**Beat Maker:** Users can choose either the Drums or Piano mode in the **Beat Maker** function. In the Drums mode, clicking the push buttons will produce different sounds based on an drum set. Likewise for the Piano mode, clicking on the buttons will produce different sounds based on a piano. 
 ![](documentation_images/beatmaker.png)
 
-**Translator:** The **Translator** function allow users to translate any text in English to other languages. This function also allows users to hear the translated text. The supported languages include Chinese, Malay, Korean, Japanese, Tamil, French, Spanish, and Vietnamese. 
+**Translator:** The **Translator** function allows users to translate any text in English to other languages. This function also enables users to hear the translated text. The supported languages include Chinese, Malay, Korean, Japanese, Tamil, French, Spanish, and Vietnamese. 
 ![](documentation_images/translator.png)
 
 ## Components
@@ -95,7 +95,7 @@ After installing the rlevant modules, you can clone the repositiory into your Ra
 
 ## Using Twitter Bot to upload images and captions automatically
 ***Follow these steps if you want to use the Twitter Bot.*** <br />
-***If not using the Twitter Bot, remove lines 102-126 from `displayingSpectrogram.py` and skip this portion*** <br />
+***If not using the Twitter Bot, remove lines 102-126 from `displayingSpectrogram.py` and skip this portion.*** <br />
 In order for the Twitter Bot to work, here are a few things that you need: <br />
 &nbsp;&nbsp;    - twython module <br />
 &nbsp;&nbsp;    - Twitter developer account <br />
