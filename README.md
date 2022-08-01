@@ -95,6 +95,6 @@ In order for the Twitter Bot to work, here are a few things that you need: <br /
 ![](documentation_images/twitter_3.png)
 4. Under **User authentication settings**, click on **Set up**.
 ![](documentation_images/twitter_4.png)
-5. Turn on **OAuth 1.0a** and set **App permissions** to **Read and write**. Give a random **Callback URL / Redirect URL** and **Website URL**, and click **Save**.
+5. Turn on **OAuth 1.0a** and set **App permissions** to **Read and write**. Give a random **Callback URL / Redirect URL** and **Website URL**, and click **Save**. <br />
 ![](documentation_images/twitter_5.png)
 ![](documentation_images/twitter_7.png)
