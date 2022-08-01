@@ -30,7 +30,7 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 **Connecting the USB Audio Adapter, Mic, and Speakers to the Raspberry Pi**
 1. Connect the Mic to the mic input of the USB Audio Adapter 
 2. Connect the USB Audio Adapter to the USB-A port of the Raspberry pi
-3. Connect the Speakers/Earphones to the 3.5mm jack of the Raspberry Pi <br />
+3. Connect the Speakers/Earphones to the 3.5mm jack of the Raspberry Pi <br /><br />
 ![](documentation_images/hardware_setup1.jpg)
 
 ### Setting up the hardware 
