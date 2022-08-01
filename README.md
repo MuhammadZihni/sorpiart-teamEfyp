@@ -77,7 +77,7 @@ After installing the rlevant modules, you can clone the repositiory into your Ra
 
 
 ## Using Twitter Bot to upload images and captions automatically
-*Follow these steps if you want to use the Twitter Bot, otherwise, you can skip this portion*
+*Follow these steps if you want to use the Twitter Bot, otherwise, you can skip this portion* <br />
 In order for the Twitter Bot to work, here are a few things that you need: <br />
 &nbsp;&nbsp;    - twython module <br />
 &nbsp;&nbsp;    - Twitter developer account <br />
