@@ -27,13 +27,19 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 |8|Speakers / Earphones|
 
 ## Setup
+
+### Setting up the hardware
 **Connecting the USB Audio Adapter, Mic, and Speakers to the Raspberry Pi**
-1. Connect the Mic to the mic input of the USB Audio Adapter 
-2. Connect the USB Audio Adapter to the USB-A port of the Raspberry pi
-3. Connect the Speakers/Earphones to the 3.5mm jack of the Raspberry Pi <br /><br />
+1. Connect the Mic to the mic input of the USB Audio Adapter.
+2. Connect the USB Audio Adapter to the USB-A port of the Raspberry pi.
+3. Connect the Speakers/Earphones to the 3.5mm jack of the Raspberry Pi. <br /><br />
 ![](documentation_images/hardware_setup1.jpg)
 
-### Setting up the hardware 
+**Connecting the Buttons, Breadboard and Dupont Cables to the Raspberry Pi**
+1. Connect all 8 Push Buttons to the Breadboard.
+2. One end of the Push Button must be connected to Ground, and the other end connected to a GPIO pin on the Raspberry Pi.
+    - GPIO pins used are GPIO pin 0, 1, 5, 6, 7, 8, 12, 25
+
 
 ### Setting up the code
 To start off, we will need to install a list of modules/libraries on our Raspberry Pi. We will install all these modules using the terminal.
