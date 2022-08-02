@@ -27,7 +27,6 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 |8|Speakers / Earphones|
 
 ## Setup
-
 ### Setting up the hardware
 ***Connecting the USB Audio Adapter, Mic, and Speakers to the Raspberry Pi***
 1. Connect the Mic to the mic input of the USB Audio Adapter.
@@ -38,8 +37,8 @@ Raspberry Pi Project on “Learning & Creating Art with Sound”. This project i
 ***Connecting the Buttons, Breadboard and Dupont Cables to the Raspberry Pi***
 1. Connect all 8 Push Buttons to the Breadboard.
 2. One end of the Push Button must be connected to Ground, and the other end connected to a GPIO pin on the Raspberry Pi.
-    - GPIO pins used are GPIO pin 0, 1, 5, 6, 7, 8, 12, 25
-
+    - GPIO pins used are GPIO pin 0, 1, 5, 6, 7, 8, 12, 25.
+![](documentation_images/beatmaker_setup.png)
 
 ### Setting up the code
 To start off, we will need to install a list of modules/libraries on our Raspberry Pi. We will install all these modules using the terminal.
@@ -86,10 +85,11 @@ First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
 14. **numpy**
     - `pip3 install numpy`
     
-After installing the rlevant modules, you can clone the repositiory into your Raspberry Pi.
+After installing the relevant modules, you can clone the repositiory into your Raspberry Pi.
 `git clone https://github.com/MuhammadZihni/sorpiart-teamEfyp`
 
-### How does the code work?
+## How does the code work?
+`project.py` is the main script for this program and it contains the Graphical User Interface (GUI) of the program
 
 
 
@@ -118,7 +118,8 @@ In order for the Twitter Bot to work, here are a few things that you need: <br /
 5. Turn on **OAuth 1.0a** and set **App permissions** to **Read and write**. Give a random **Callback URL / Redirect URL** and **Website URL**, and click **Save**. <br />
 ![](documentation_images/twitter_5.png)
 ![](documentation_images/twitter_8.png)
-6. Modify the `auth_twitter.py` file with your **Keys & Tokens** from step 3. If you forgot to save the **Keys & Tokens** earlier, you can regenerate it again at the Twitter Developer Portal.
+6. Modify the `auth_twitter.py` file with your **Keys & Tokens** from step 3. 
+> If you forgot to save the **Keys & Tokens** earlier, you can regenerate it again at the Twitter Developer Portal.
 
 ## To run Tkinter GUI on boot
 In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspberry Pi** boots up, we can utilise on **autostart**. 
