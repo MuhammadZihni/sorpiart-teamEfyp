@@ -346,6 +346,13 @@ def translating(Value):
         time.sleep(1)
         pygame.mixer.music.load("/home/pi/sorpiart-teamEfyp/Sound/mp3/translated_text.mp3")
         pygame.mixer.music.play()
+    elif (Value == 'Thai'):
+        language = 'th'
+        speech = gTTS(text = translation, lang = language, slow = False)
+        speech.save("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        time.sleep(1)
+        pygame.mixer.music.load("/home/pi/project/EGL314_Project_TeamC/Sound/mp3/translated_text.mp3")
+        pygame.mixer.music.play()
         
                 
 bg = PIL.Image.open("/home/pi/sorpiart-teamEfyp/icon/proj_bg1.png")
@@ -453,7 +460,7 @@ beatmaker_instructions.place(relx = 0.5, rely = 0.4, anchor = CENTER)
 
 
 ##Translator Program
-choices = ['Chinese', 'Malay', 'Korean', 'Japanese','Tamil', 'French', 'Spanish', 'Vietnamese']
+choices = ['Chinese', 'Malay', 'Korean', 'Japanese','Tamil', 'French', 'Spanish', 'Vietnamese', 'Thai']
 translator_program_title = Label(tab4, text="Translate from English to other languages", font = ("Flavors 16"))
 translator_program_title.place(relx = 0.5, rely = 0.2, anchor = CENTER)
 
