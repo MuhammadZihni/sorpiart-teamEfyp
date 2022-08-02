@@ -19,8 +19,8 @@ snare_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/snare.wav
 midtom_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/mid-tom.wav')
 hightom_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/high-tom.wav')
 floortom_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/floor-tom.wav')
-ridecymbal_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/ride_cymbal.wav')
-crashcymbal_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/crash_cymbal.wav')
+ridecymbal_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/ride-cymbal.wav')
+crashcymbal_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/crash-cymbal.wav')
 
 do_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/do.wav')
 re_sound = pygame.mixer.Sound('/home/pi/sorpiart-teamEfyp/Sound/wav/re.wav')
@@ -53,15 +53,6 @@ def drum():
     btn_ridecymbal.when_pressed = ridecymbal_sound.play
     btn_crashcymbal.when_pressed = crashcymbal_sound.play
     
-
-btn_kick.when_pressed = kick_sound.play
-btn_hihat.when_pressed = hihat_sound.play
-btn_snare.when_pressed = snare_sound.play
-btn_midtom.when_pressed = midtom_sound.play
-btn_hightom.when_pressed = hightom_sound.play
-btn_floortom.when_pressed = floortom_sound.play
-btn_ridecymbal.when_pressed = ridecymbal_sound.play
-btn_crashcymbal.when_pressed = crashcymbal_sound.play
 
 
         
