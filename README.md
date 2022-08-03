@@ -130,6 +130,8 @@ C ----> D(displayingSpectrogram.py)
 D ----> E(auth_twitter.py)
 A[project.py] ----> F(beatmaker.py)
 ```
+## To run the code
+Open the terminal and type in `python3 /home/pi/sorpiart-teamEfyp/project.py`
 
 ## To run Tkinter GUI on boot
 In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspberry Pi** boots up, we can utilise on **autostart**. 
