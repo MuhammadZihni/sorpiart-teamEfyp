@@ -88,10 +88,6 @@ First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
 After installing the relevant modules, you can clone the repositiory into your Raspberry Pi.
 `git clone https://github.com/MuhammadZihni/sorpiart-teamEfyp`
 
-## How does the code work?
-`project.py` is the main script for this program and it contains the Graphical User Interface (GUI) of the program
-
-
 
 ## Using Twitter Bot to upload images and captions automatically
 **Follow these steps if you want to use the Twitter Bot.** <br />
