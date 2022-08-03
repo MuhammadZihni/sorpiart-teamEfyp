@@ -363,7 +363,7 @@ def translating(Value):
         pygame.mixer.music.play()
         
                 
-bg = PIL.Image.open("/home/pi/sorpiart-teamEfyp/icon/proj_bg1")
+bg = PIL.Image.open("/home/pi/sorpiart-teamEfyp/icon/proj_bg1.png")
 bg = bg.resize((1919,1065))
 img = ImageTk.PhotoImage(bg)
 label = Label(tab1, image = img)
