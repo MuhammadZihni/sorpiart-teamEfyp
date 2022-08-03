@@ -11,8 +11,8 @@ import speech_recognition as sr
 import time
 
 time.sleep(1)
-samplingFrequency, signalData = wavfile.read('/home/pi/sorpiart-teamEfyp/Sound/wav/output.wav')  #for spectrogram
-src = "/home/pi/sorpiart-teamEfyp/Sound/wav/output.wav"
+samplingFrequency, signalData = wavfile.read('/home/pi/project/EGL314_Project_TeamC/Sound/wav/output.wav')  #for spectrogram
+src = "/home/pi/project/EGL314_Project_TeamC/Sound/wav/output.wav"
 r = sr.Recognizer()
 
 #speech to text
@@ -33,7 +33,7 @@ data = np.frombuffer(audio._data, np.int16)
 fs = audio.frame_rate
 
 BARS = 500
-BAR_HEIGHT = 300
+BAR_HEIGHT = 400
 LINE_WIDTH = 4
 
 length = len(data)
@@ -62,7 +62,7 @@ for d in data:
 line_ratio = highest_line/BAR_HEIGHT
 
 # fnt = ImageFont.truetype('vcr.ttf', 50)
-fnt = ImageFont.truetype("/home/pi/sorpiart-teamEfyp/vcr.ttf", 50)
+fnt = ImageFont.truetype("/home/pi/project/EGL314_Project_TeamC/vcr.ttf", 50)
 
 im = Image.new('RGB', (BARS * LINE_WIDTH, BAR_HEIGHT), (255, 255, 255))
 draw = ImageDraw.Draw(im)
@@ -79,11 +79,11 @@ for item in max_array:
     current_x = current_x + LINE_WIDTH
     
 filename = "audioSpec" + ".jpg" #save the bars diagram
-im.save("/home/pi/sorpiart-teamEfyp/images/" + filename)
+im.save("/home/pi/project/EGL314_Project_TeamC/images/" + filename)
 
 plot.subplot(211)
 plot.title("waveform")
-img = mpimg.imread('/home/pi/sorpiart-teamEfyp/images/audioSpec.jpg')
+img = mpimg.imread('/home/pi/project/EGL314_Project_TeamC/images/audioSpec.jpg')
 imgplot = plot.imshow(img)
     
 plot.subplot(212)
@@ -92,10 +92,10 @@ plot.specgram(signalData,Fs=samplingFrequency)
 bottom, top = plot.ylim()
 left, right = plot.xlim()
 plot.ylim(0, 10000)
-plot.xlim(0, 3)
+plot.xlim(0, 4)
 plot.xlabel('Time')
 plot.ylabel('Frequency')
-plot.savefig("/home/pi/sorpiart-teamEfyp/images/figure.jpg", bbox_inches="tight")  #save the plot which includes the spectrogra & bars diagrams
+plot.savefig("/home/pi/project/EGL314_Project_TeamC/images/figure.jpg", bbox_inches="tight")  #save the plot which includes the spectrogra & bars diagrams
 
 plot.show()  #plot.show() must be after plot.savefig beacuse polt.show() clears the plot
 
@@ -120,7 +120,7 @@ twitter = Twython(
 
 
 message = user_input
-image = open('/home/pi/sorpiart-teamEfyp/images/figure.jpg', 'rb')
+image = open('/home/pi/project/EGL314_Project_TeamC/images/figure.jpg', 'rb')
 response = twitter.upload_media(media=image)
 media_id = [response['media_id']]
 twitter.update_status(status=message, media_ids=media_id)
