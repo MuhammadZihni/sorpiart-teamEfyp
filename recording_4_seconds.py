@@ -9,7 +9,7 @@ def record():
     channels = 1
     fs = 44100  # Record at 44100 samples per second
     seconds = 4
-    filename = "/home/pi/project/EGL314_Project_TeamC/Sound/wav/output.wav"
+    filename = "/home/pi/sorpiart-teamEfyp/Sound/wav/output.wav"
 
     p = pyaudio.PyAudio()  # Create an interface to PortAudio
 
@@ -44,4 +44,4 @@ def record():
     wf.writeframes(b''.join(frames))
     wf.close()
     time.sleep(1)
-    subprocess.Popen(["python3", "/home/pi/project/EGL314_Project_TeamC/displayingSpectrogram.py"])
+    subprocess.Popen(["python3", "/home/pi/sorpiart-teamEfyp/displayingSpectrogram.py"])
