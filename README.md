@@ -117,6 +117,17 @@ In order for the Twitter Bot to work, here are a few things that you need: <br /
 6. Modify the `auth_twitter.py` file with your **Keys & Tokens** from step 3. 
 > If you forgot to save the **Keys & Tokens** earlier, you can regenerate it again at the Twitter Developer Portal.
 
+## Flow of the code
+
+```mermaid
+graph
+A[project.py] ----> B(pix2music.py)
+A[project.py] ----> C(recording_4_seconds.py)
+C ----> D(displayingSpectrogram.py)
+D ----> E(auth_twitter.py)
+A[project.py] ----> C(beatmaker.py)
+```
+
 ## To run Tkinter GUI on boot
 In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspberry Pi** boots up, we can utilise on **autostart**. 
 
