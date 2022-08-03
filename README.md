@@ -2,7 +2,7 @@
 Raspberry Pi Project on “Learning & Creating Art with Sound”. This project is to encourage children from the age of 5 - 12 years to expand their knowledge about the different types of sounds.
 
 ## Features
-**Music Maker:**
+**Music Maker:** It piques their interest in music and encourages them to be more creative by creating their own scale while teaching them about different kinds of sounds other than the usual musical instruments they see or hear.
 ![](documentation_images/MusicMaker.png)
 
 **Record:** The **Record** function allows users to make a 4-second recording, which will be converted into a picture of an audio waveform and spectrogram. The converted image will then be uploaded automatically to a Twitter account, where it is displayed with other converted images.
