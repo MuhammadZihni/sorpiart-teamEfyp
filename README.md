@@ -50,7 +50,7 @@ First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
     - `pip3 install pygame`
 
 3. **PIL a.k.a pillow**
-    - `pip3 install Pillow`
+    - `sudo apt-get install python3-pil python3-pil.imagetk`
 
 4. **gtts**
     - `pip3 install gTTS`
@@ -61,11 +61,11 @@ First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
 6. **translate**
     - `pip3 install translate`
 
-7. **PyAudio**
-    - `pip3 install PyAudio`
+7. **pyaudio**
+    - `sudo apt-get install python3-pyaudio`
 
-8. **wave**
-    - `pip3 install Wave`
+8. **portaudio19-dev**
+    - `sudo apt-get install portaudio19-dev`
 
 9. **gpiozero**
     - `pip3 install gpiozero`
@@ -77,13 +77,16 @@ First, lets type in `sudo apt update` followed by `sudo apt upgrade`.
     - `pip3 install pydub`
 
 12. **matlpotlib**
-    - `pip3 install matplotlib`
+    - `sudo apt-get install python3-matplotlib`
 
 13. **scipy**
-    - `pip3 install scipy`
+    - `sudo apt-get install python3-scipy`
 
 14. **numpy**
-    - `pip3 install numpy`
+    - `sudo apt-get install python3-numpy`
+
+15. **flac**
+    - `sudo apt-get install flac`
     
 After installing the relevant modules, you can clone the repositiory into your Raspberry Pi.
 `git clone https://github.com/MuhammadZihni/sorpiart-teamEfyp`
