@@ -125,7 +125,7 @@ A[project.py] ----> B(pix2music.py)
 A[project.py] ----> C(recording_4_seconds.py)
 C ----> D(displayingSpectrogram.py)
 D ----> E(auth_twitter.py)
-A[project.py] ----> C(beatmaker.py)
+A[project.py] ----> F(beatmaker.py)
 ```
 
 ## To run Tkinter GUI on boot
