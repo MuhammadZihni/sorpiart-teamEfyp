@@ -2,9 +2,8 @@
 Raspberry Pi Project on “Learning & Creating Art with Sound”. 
 
 ## How did our project came about?
-Problem: According to Kaspersky’s report on digital habits in 2021, 70% of children aged 7-12 spend at least 3 hours a day across 19 countries around the world. We realised that children in this generation would rather spend time using electronic gadgets such as mobile phone to entertain themselves. 
-<br />
-Obejctive: We want to encourage children from the age of 5-12 years to expand their knowledge about the different type of sounds from an early age rather than spending time on electronic gadgets.
+**Problem:** According to Kaspersky’s report on digital habits in 2021, 70% of children aged 7-12 spend at least 3 hours a day across 19 countries around the world. We realised that children in this generation would rather spend time using electronic gadgets such as mobile phone to entertain themselves. <br />
+**Obejctive:** We want to encourage children from the age of 5-12 years to expand their knowledge about the different type of sounds from an early age rather than spending time on electronic gadgets.
 
 ## Features
 **Music Maker:** It piques their interest in music and encourages them to be more creative by creating their own scale while teaching them about different kinds of sounds other than the usual musical instruments they see or hear.
