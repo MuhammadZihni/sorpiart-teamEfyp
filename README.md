@@ -1,5 +1,5 @@
 # RasPiratory System
-Raspberry Pi Project on “Learning & Creating Art with Sound”. 
+Raspberry Pi Project on “Learning & Creating Art with Sound”.  "Immerse yourself with the possibilities of learning through sound"
 
 ## How did our project came about?
 **Problem:** According to Kaspersky’s report on digital habits in 2021, 70% of children aged 7-12 spend at least 3 hours a day across 19 countries around the world. We realised that children in this generation would rather spend time using electronic gadgets such as mobile phone to entertain themselves. <br />
